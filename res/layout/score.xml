@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="1920px"
+    android:layout_height="1080px" 
+    >
+    <AbsoluteLayout     
+        android:layout_width="1920px"
+        android:layout_height="1080px"
+        android:background="@drawable/score_bg">
+        <!-- 打分十位分数 -->
+    	<ImageView 
+        	android:id="@+id/score_left_num"
+        	android:layout_width="288px"
+        	android:layout_height="518px"
+        	android:layout_x="265px"
+        	android:layout_y="155px"
+        	android:src="@drawable/score_num_0"/>
+    	<!-- 打分个位分数 -->
+    	<ImageView 
+        	android:id="@+id/score_right_num"
+        	android:layout_width="288px"
+        	android:layout_height="518px"
+        	android:layout_x="553px"
+        	android:layout_y="155px"
+        	android:src="@drawable/score_num_0"/>
+    	<!-- 排行榜第一名十位分数 -->
+    	<ImageView 
+        	android:id="@+id/score_rank_first_left"
+        	android:layout_width="41px"
+        	android:layout_height="73px"
+        	android:layout_x="1775px"
+        	android:layout_y="288px"
+        	android:scaleType="fitCenter"
+        	/>
+    	<!-- 排行榜第一名个位分数 -->
+    	<ImageView 
+        	android:id="@+id/score_rank_first_right"
+        	android:layout_width="41px"
+        	android:layout_height="73px"
+        	android:layout_x="1816px"
+        	android:layout_y="288px"
+        	android:scaleType="fitCenter"/>
+    	<!-- 排行榜第二名十位分数 -->
+    	<ImageView 
+        	android:id="@+id/score_rank_sec_left"
+        	android:layout_width="41px"
+        	android:layout_height="73px"
+        	android:layout_x="1775px"
+        	android:layout_y="425px"
+        	android:scaleType="fitCenter"
+        	/>
+    	<!-- 排行榜第二名个位分数 -->
+    	<ImageView 
+        	android:id="@+id/score_rank_sec_right"
+        	android:layout_width="41px"
+        	android:layout_height="73px"
+        	android:layout_x="1816px"
+        	android:layout_y="425px"
+        	android:scaleType="fitCenter"/>
+    	<!-- 排行榜第三名十位分数 -->
+    	<ImageView 
+        	android:id="@+id/score_rank_third_left"
+        	android:layout_width="41px"
+        	android:layout_height="73px"
+        	android:layout_x="1775px"
+        	android:layout_y="562px"
+        	android:scaleType="fitCenter"/>
+    	<!-- 排行榜第三名个位分数 -->
+    	<ImageView 
+        	android:id="@+id/score_rank_third_right"
+        	android:layout_width="41px"
+        	android:layout_height="73px"
+        	android:layout_x="1816px"
+        	android:layout_y="562px"
+        	android:scaleType="fitCenter"/>
+    	<!-- 第一名数字标号-->
+    	<ImageView 
+        	android:id="@+id/score_first"
+        	android:layout_width="65px"
+        	android:layout_height="143px"
+        	android:layout_x="1307px"
+        	android:layout_y="254px"
+        	android:visibility="invisible"
+        	android:background="@drawable/score_rank_big1"/>
+    	<ImageView 
+    	    android:id="@+id/score_small_first"
+    	    android:layout_width="46px"
+    	    android:layout_height="104px"
+    	    android:layout_x="1314px"
+    	    android:layout_y="254px"
+    	    android:background="@drawable/score_rank_small1"/>
+    	<!-- 第二名数字标号-->
+    	<ImageView 
+        	android:id="@+id/score_second"
+        	android:layout_width="65px"
+        	android:layout_height="143px"
+        	android:layout_x="1307px"
+        	android:layout_y="391px"
+        	android:visibility="invisible"
+        	android:background="@drawable/score_rank_big2"/>
+    	<ImageView 
+        	android:id="@+id/score_small_second"
+        	android:layout_width="46px"
+        	android:layout_height="104px"
+        	android:layout_x="1314px"
+        	android:layout_y="411px"
+        	android:background="@drawable/score_rank_small2"/>
+    	<!-- 第三名数字标号-->
+    	<ImageView 
+        	android:id="@+id/score_third"
+        	android:layout_width="65px"
+        	android:layout_height="143px"
+        	android:layout_x="1307px"
+        	android:layout_y="528px"
+        	android:visibility="invisible"
+        	android:background="@drawable/score_rank_big3"/>
+    	<ImageView 
+        	android:id="@+id/score_small_third"
+        	android:layout_width="46px"
+        	android:layout_height="104px"
+        	android:layout_x="1314px"
+        	android:layout_y="548px"
+        	android:background="@drawable/score_rank_small3"
+        	/>
+    	<!-- 排行榜图片-->
+    	<ImageView 
+        	android:id="@+id/score_rank"
+        	android:layout_width="358px"
+        	android:layout_height="154px"
+        	android:layout_x="1390px"
+        	android:layout_y="75px"
+        	android:src="@drawable/score_rank_list"/>
+    	<!-- 鼓励语句的图片-->
+    	<ImageView 
+        	android:id="@+id/score_approve_sentence"
+        	android:layout_width="514px"
+        	android:layout_height="143px"
+        	android:layout_x="1080px"
+        	android:layout_y="785px"/>
+    	<!-- 鼓励语句右侧的图片-->
+    	<ImageView 
+    	    android:id="@+id/score_approve_image"
+        	android:layout_width="240px"
+        	android:layout_height="283px"
+        	android:layout_x="1600px"
+        	android:layout_y="705px"/>
+    	<!-- 第一名名字 -->
+    	<TextView
+    	    android:id="@+id/score_first_name"
+    	    android:layout_x="1403px"
+    	    android:layout_y="285px"
+    	    android:layout_width="252px"
+    	    android:layout_height="60px"
+    	    android:textSize="36px"
+    	   />
+    	<!-- 第二名输名字 -->
+    	<TextView 
+    	    android:id="@+id/score_second_name"
+    	    android:layout_x="1403px"
+    	    android:layout_y="430px"
+    	    android:layout_width="252px"
+    	    android:layout_height="60px"
+    	    android:textSize="36px"
+    	    />
+    	<!-- 第三名输名字 -->
+    	<TextView 
+    	    android:id="@+id/score_third_name"
+    	    android:layout_x="1403px"
+    	    android:layout_y="565px"
+    	    android:layout_width="252px"
+    	    android:layout_height="60px"
+    	    android:textSize="36px"
+    	    />
+    	<!-- 第一名输入框 -->
+    	<EditText 
+    	    android:id="@+id/score_firstedit"
+    	    android:layout_x="1403px"
+    	    android:layout_y="285px"
+    	    android:layout_width="252px"
+    	    android:layout_height="60px"
+    	    android:textColor="#827e7e"
+    	    android:textSize="36px"
+    	    android:visibility="invisible"
+      	    android:focusable="false"
+    	    android:imeOptions="flagNoExtractUi"
+    	    android:text=""
+    	    android:inputType="text"
+    	   />
+    	<!-- 第二名输入框 -->
+    	<EditText 
+    	    android:id="@+id/score_secondedit"
+    	    android:layout_x="1403px"
+    	    android:layout_y="430px"
+    	    android:layout_width="252px"
+    	    android:layout_height="60px"
+    	    android:textColor="#827e7e"
+    	    android:textSize="36px"
+    	    android:visibility="invisible" 
+    	    android:focusable="false"
+    	    android:imeOptions="flagNoExtractUi"
+    	    android:text=""
+    	    android:inputType="text"
+    	    />
+    	<!-- 第三名输入框 -->
+    	<EditText 
+    	    android:id="@+id/score_thirdedit"
+    	    android:layout_x="1403px"
+    	    android:layout_y="565px"
+    	    android:layout_width="252px"
+    	    android:layout_height="60px"
+    	    android:textSize="36px"
+    	    android:textColor="#827e7e"
+    	    android:visibility="invisible"
+    	    android:focusable="false"
+    	    android:imeOptions="flagNoExtractUi" 
+    	    android:text=""
+    	    android:inputType="text"
+    	    />
+    </AbsoluteLayout>
+
+</LinearLayout>

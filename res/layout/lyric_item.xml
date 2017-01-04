@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    
+    <ImageView 
+        android:id="@+id/leftscoreimage"
+        android:src="@drawable/small0"
+        android:layout_width="18px"
+        android:layout_height="33px"
+        android:scaleType="fitXY"
+        />
+    
+    <ImageView 
+        android:id="@+id/rightscoreimage"
+        android:src="@drawable/small0"
+        android:layout_width="18px"
+        android:layout_height="33px"
+       android:scaleType="fitXY"
+        />
+    
+    <ImageView 
+        android:id="@+id/smallstarimage"
+        android:src="@drawable/dark_smallstar"
+        android:layout_width="20px"
+        android:layout_height="33px"
+        android:scaleType="fitXY"
+        />
+    
+    <TextView
+        android:id="@+id/lyric_tv"
+        android:layout_width="389px" 
+        android:gravity="center"
+        android:textSize="9sp"
+        android:layout_height="33px"
+         />
+</LinearLayout>

@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/partyLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="1080px"
+    android:background="@drawable/party_bg"
+    android:orientation="vertical" >
+
+    <!-- 练歌界面的上边主版块 -->
+
+
+    <!-- 主版块上部分 -->
+
+    <AbsoluteLayout
+        android:layout_width="1920px"
+        android:layout_height="1016px" >
+
+        <!-- 歌手头像背景 -->
+
+        <ImageView
+            android:layout_width="400px"
+            android:layout_height="205px"
+            android:layout_x="9px"
+            android:layout_y="9px"
+            android:background="@drawable/singer" />
+
+        <!-- 歌手头像 -->
+
+        <ImageView
+            android:id="@+id/party_image"
+            android:layout_width="195px"
+            android:layout_height="195px"
+            android:layout_x="11px"
+            android:layout_y="22px" />
+
+        <!-- 歌曲名、歌手名、最高分、已唱时间和总时间 -->
+
+        <TextView
+            android:id="@+id/party_musicinfo"
+            android:layout_width="158px"
+            android:layout_height="116px"
+            android:layout_x="227px"
+            android:layout_y="52px" 
+            android:textSize="28px"/>
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="300px"
+            android:layout_height="200px"
+            android:layout_x="227px"
+            android:layout_y="200px" />
+
+        <ImageView
+            android:id="@+id/party_timeHand"
+            android:layout_width="10px"
+            android:layout_height="532px"
+            android:layout_x="200px"
+            android:layout_y="228px"
+            android:src="@drawable/timehand"
+            android:visibility="invisible" />
+
+        <!-- 蓝色倒计时标记 -->
+
+        <ImageView
+            android:id="@+id/party_countblue"
+            android:layout_width="37px"
+            android:layout_height="37px"
+            android:layout_x="250px"
+            android:layout_y="815px"
+            android:src="@drawable/countdownblue"
+            android:visibility="invisible" />
+
+        <!-- 红色倒计时标记 -->
+
+        <ImageView
+            android:id="@+id/party_countred"
+            android:layout_width="37px"
+            android:layout_height="37px"
+            android:layout_x="290px"
+            android:layout_y="815px"
+            android:src="@drawable/countdownred"
+            android:visibility="invisible" />
+        <!-- 黄色倒计时标记 -->
+
+        <ImageView
+            android:id="@+id/party_countyellow"
+            android:layout_width="37px"
+            android:layout_height="37px"
+            android:layout_x="330px"
+            android:layout_y="815px"
+            android:src="@drawable/countdownyellow"
+            android:visibility="invisible" />
+         
+       	<ImageView 
+       	    android:id="@+id/party_sentence"
+       	    android:layout_width="1161px"
+       	    android:layout_height="139px"
+       	    android:src="@drawable/party_quick"
+       	    android:visibility="invisible"
+       	    android:layout_x="380px"
+       	    android:layout_y="400px"/>
+        <hichang.ourView.CurveAndLrc
+                android:layout_width="1920px"
+                android:layout_height="1016px"
+                android:layout_x="0px"
+                android:layout_y="242px"
+                android:id="@+id/party_curveandlrc"/>  
+         <ImageView
+            android:id="@+id/party_staff"
+            android:layout_width="1000px"
+            android:layout_height="182px"
+            android:layout_x="400px"
+            android:layout_y="834px"
+            android:src="@drawable/staff"
+            android:visibility="invisible" />
+          
+          
+        <AbsoluteLayout
+            android:id="@+id/party_keyboard_layout"
+            android:layout_width="271px"
+            android:layout_height="405px"
+            android:layout_x="1649px"
+            android:layout_y="30px" 
+            android:visibility="visible">
+
+            <ImageView 
+                android:id="@+id/party_keyboard_num_1"
+                android:layout_x="0px"
+                android:layout_y="0px"
+                android:layout_width="80px"
+                android:layout_height="65px"
+                android:clickable="true"
+                android:onClick="OnBtnCLicked"
+                />
+           <ImageView 
+                android:id="@+id/party_keyboard_num_2"
+                android:layout_x="95px"
+                android:layout_y="0px"
+                android:layout_width="80px"
+                android:layout_height="65px"
+                android:clickable="true"
+                android:onClick="OnBtnCLicked"
+                />
+           <ImageView 
+                android:id="@+id/party_keyboard_num_3"
+                android:layout_x="191px"
+                android:layout_y="0px"
+                android:layout_width="80px"
+                android:layout_height="65px"
+                android:clickable="true"
+                android:onClick="OnBtnCLicked"
+                />
+           <ImageView 
+                android:id="@+id/party_keyboard_num_4"
+                android:layout_x="0px"
+                android:layout_y="78px"
+                android:layout_width="80px"
+                android:layout_height="65px"
+                android:clickable="true"
+                android:onClick="OnBtnCLicked"
+                />
+           <ImageView 
+                android:id="@+id/party_keyboard_num_5"
+                android:layout_x="95px"
+                android:layout_y="78px"
+                android:layout_width="80px"
+                android:layout_height="65px"
+                android:clickable="true"
+                android:onClick="OnBtnCLicked"
+                />
+           <ImageView 
+                android:id="@+id/party_keyboard_num_6"
+                android:layout_x="191px"
+                android:layout_y="78px"
+                android:layout_width="80px"
+                android:layout_height="65px"
+                android:clickable="true"
+                android:onClick="OnBtnCLicked"
+                />
+           <ImageView 
+                android:id="@+id/party_keyboard_num_7"
+                android:layout_x="0px"
+                android:layout_y="156px"
+                android:layout_width="80px"
+                android:layout_height="65px"
+                android:clickable="true"
+                android:onClick="OnBtnCLicked"
+                />
+           <ImageView 
+                android:id="@+id/party_keyboard_num_8"
+                android:layout_x="95px"
+                android:layout_y="156px"
+                android:layout_width="80px"
+                android:layout_height="65px"
+                android:clickable="true"
+                android:onClick="OnBtnCLicked"
+                />
+           <ImageView 
+                android:id="@+id/party_keyboard_num_9"
+                android:layout_x="191px"
+                android:layout_y="156px"
+                android:layout_width="80px"
+                android:layout_height="65px"
+                android:clickable="true"
+                android:onClick="OnBtnCLicked"
+                />
+           <ImageView 
+                android:id="@+id/party_keyboard_num_pin"
+                android:layout_x="0px"
+                android:layout_y="233px"
+                android:layout_width="80px"
+                android:layout_height="65px"
+                android:clickable="true"
+                android:onClick="OnBtnCLicked"
+                />
+           <ImageView 
+                android:id="@+id/party_keyboard_num_0"
+                android:layout_x="95px"
+                android:layout_y="233px"
+                android:layout_width="80px"
+                android:layout_height="65px"
+                android:clickable="true"
+                android:onClick="OnBtnCLicked"
+                />
+           <ImageView 
+                android:id="@+id/party_keyboard_num_jiao"
+                android:layout_x="191px"
+                android:layout_y="233px"
+                android:layout_width="80px"
+                android:layout_height="65px"
+                android:clickable="true"
+                android:onClick="OnBtnCLicked"
+                />
+           <ImageView 
+                android:id="@+id/party_keyboard_menu"
+                android:layout_x="0px"
+                android:layout_y="300px"
+                android:layout_width="111px"
+                android:layout_height="56px"
+                android:clickable="true"
+                android:onClick="OnBtnCLicked"
+                android:scaleType="fitXY"
+                android:src="@drawable/menu_diange"
+                />
+            <ImageView
+                android:id="@+id/party_keyboard_ok"
+                android:layout_x="94px"
+                android:layout_y="300px"
+                android:layout_width="107px"
+                android:layout_height="107px"
+                android:clickable="true"
+                android:onClick="OnBtnCLicked"
+                android:scaleType="fitXY"
+                android:src="@drawable/okqiege"
+                />
+         </AbsoluteLayout>
+        
+        <!-- 此处放置右侧选择菜单 -->
+
+        <AbsoluteLayout
+            android:id="@+id/party_list_layout"
+            android:layout_width="495px"
+            android:layout_height="fill_parent"
+            android:layout_x="1920px"
+            android:layout_y="0px"
+            android:visibility="invisible"
+            android:background="@drawable/party_menu_bg" >
+            
+            
+            <ImageView 
+                android:id="@+id/party_left_first"
+                android:layout_width="30px"
+                android:layout_height="35px"
+                android:layout_x="155px"
+                android:layout_y="60px"
+                android:scaleType="fitCenter"
+                android:src="@drawable/party_left_twinkle" />
+            <ImageView 
+                android:id="@+id/party_left_sec"
+                android:layout_width="30px"
+                android:layout_height="35px"
+                android:layout_x="125px"
+                android:layout_y="60px"
+                android:scaleType="fitCenter"
+                android:src="@drawable/party_left_twinkle" />
+            <ImageView 
+                android:id="@+id/party_right_first"
+                android:layout_width="30px"
+                android:layout_height="35px"
+                android:layout_x="310px"
+                android:layout_y="60px"
+                android:scaleType="fitCenter"
+                android:src="@drawable/party_right_twinkle" />
+            <ImageView 
+                android:id="@+id/party_right_sec"
+                android:layout_width="30px"
+                android:layout_height="35px"
+                android:layout_x="340px"
+                android:layout_y="60px"
+                android:scaleType="fitCenter"
+                android:src="@drawable/party_right_twinkle" />
+            
+            <ImageView
+                android:id="@+id/party_menu_image1"
+                android:layout_width="125px"
+                android:layout_height="170px"
+                android:layout_x="0px"
+                android:layout_y="0px"
+                android:scaleType="fitCenter"
+                android:src="@drawable/party_booked_unselected" />
+
+            <ImageView
+                android:id="@+id/party_menu_image2"
+                android:layout_width="125px"
+                android:layout_height="170px"
+                android:layout_x="185px"
+                android:layout_y="0px"
+                android:scaleType="fitCenter"
+                android:src="@drawable/party_rank_selected"
+                android:text="榜单" />
+
+            <ImageView
+                android:id="@+id/party_menu_image3"
+                android:layout_width="125px"
+                android:layout_height="170px"
+                android:layout_x="370px"
+                android:layout_y="0px"
+                android:scaleType="fitCenter"
+                android:src="@drawable/party_book_unselected"
+                android:text="点歌" />
+
+            
+            <TextView
+                android:id="@+id/party_search_edit"
+                android:layout_width="445px"
+                android:layout_height="50px"
+                android:layout_x="520px"
+                android:layout_y="120px"
+                android:textColor="#FFFFFF"
+                android:textSize="36px"
+                android:maxLength="10"
+                android:background="@drawable/searchframe"
+                android:visibility="invisible"/>
+
+            <ListView
+                android:id="@+id/party_list"
+                android:layout_width="495px"
+                android:layout_height="810px"
+                android:layout_x="0px"
+                android:layout_y="170px"
+                android:listSelector="#00000000" />
+        </AbsoluteLayout>
+    </AbsoluteLayout>
+
+    <!-- 菜单框 -->
+
+    <AbsoluteLayout
+        android:layout_width="fill_parent"
+        android:layout_height="64px" >
+
+        <!-- 红色功能键 -->
+
+        <ImageView
+            android:id="@+id/party_function_red"
+            android:layout_width="80px"
+            android:layout_height="35px"
+            android:layout_x="15px"
+            android:layout_y="14px"
+            android:clickable="true"
+            android:onClick="OnFuncMenuClicked"
+            android:src="@drawable/function_red" />
+        <!-- 绿色功能键 -->
+
+        <ImageView
+            android:id="@+id/party_function_green"
+            android:layout_width="80px"
+            android:layout_height="35px"
+            android:layout_x="115px"
+            android:layout_y="14px"
+            android:clickable="true"
+            android:onClick="OnFuncMenuClicked"
+            android:src="@drawable/function_green" />
+        <!-- 黄色功能键 -->
+
+        <ImageView
+            android:id="@+id/party_function_yellow"
+            android:layout_width="80px"
+            android:layout_height="35px"
+            android:layout_x="215px"
+            android:layout_y="14px"
+            android:clickable="true"
+            android:onClick="OnFuncMenuClicked"
+            android:src="@drawable/function_yellow" />
+        <!-- 蓝色功能键 -->
+
+        <ImageView
+            android:id="@+id/party_function_blue"
+            android:layout_width="80px"
+            android:layout_height="35px"
+            android:layout_x="315px"
+            android:layout_y="14px"
+            android:clickable="true"
+            android:onClick="OnFuncMenuClicked"
+            android:src="@drawable/function_blue" />
+
+        <AbsoluteLayout
+            android:id="@+id/party_funclayout"
+            android:layout_width="330px"
+            android:layout_height="54px"
+            android:layout_x="430px"
+            android:layout_y="10px" >
+
+            <!-- 原唱、ktv是否开启显示 -->
+
+            <ImageView
+                android:id="@+id/party_funcfirstimage"
+                android:layout_width="100px"
+                android:layout_height="35px"
+                android:layout_x="9px"
+                android:layout_y="2px"
+                android:visibility="invisible" />
+            <!-- 原唱伴奏或者ktv专业中部斜杠 -->
+
+            <ImageView
+                android:id="@+id/party_funcsprit"
+                android:layout_width="25px"
+                android:layout_height="30px"
+                android:layout_x="93px"
+                android:layout_y="2px"
+                android:src="@drawable/sprit"
+                android:visibility="invisible" />
+            <!-- 伴奏、专业是否开启显示 -->
+
+            <ImageView
+                android:id="@+id/party_funcsecimage"
+                android:layout_width="100px"
+                android:layout_height="35px"
+                android:layout_x="120px"
+                android:layout_y="2px"
+                android:visibility="invisible" />
+            <!-- 伴奏、麦克风音量icon -->
+
+            <ImageView
+                android:id="@+id/party_volumntype"
+                android:layout_width="25px"
+                android:layout_height="30px"
+                android:layout_x="15px"
+                android:layout_y="10px"
+                android:visibility="invisible" />
+            <!-- 滑动条 -->
+
+            <SeekBar
+                android:id="@+id/party_player_seekbar"
+                android:layout_width="220px"
+                android:layout_height="wrap_content"
+                android:layout_x="50px"
+                android:layout_y="18px"
+                android:max="100"
+                android:maxHeight="5px"
+                android:minHeight="5px"
+                android:progress="30"
+                android:progressDrawable="@layout/seekbar_style"
+                android:thumb="@layout/thumb"
+                android:visibility="invisible" />
+            <TextView 
+                android:id="@+id/party_text_zcl"
+                android:layout_x="290px"
+                android:layout_y="10px"
+                android:layout_width="40px"
+                android:layout_height="30px"
+                android:visibility="invisible"
+                />
+        </AbsoluteLayout>
+    </AbsoluteLayout>
+
+</LinearLayout>

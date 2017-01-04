@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget0"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/remote_bg" >
+
+    <ImageView
+        android:id="@+id/midframe"
+        android:layout_width="1600px"
+        android:layout_height="806px"
+        android:layout_x="160px"
+        android:layout_y="102px"
+        android:background="@drawable/midframe" />
+
+    <AbsoluteLayout
+        android:id="@+id/layout"
+        android:layout_width="1920px"
+        android:layout_height="1080px"
+        android:layout_x="0dp"
+        android:layout_y="0dp" >
+
+        <ImageView
+            android:id="@+id/midsmallframe"
+            android:layout_width="1060px"
+            android:layout_height="600px"
+            android:layout_x="195px"
+            android:layout_y="243px"
+            android:background="@drawable/midframe_dark"
+            android:scaleType="fitXY" />
+
+        <hichang.ourView.SingerItemView
+            android:id="@+id/singer1"
+            android:layout_width="315px"
+            android:layout_height="170px"
+            android:layout_x="220px"
+            android:layout_y="270px"
+            android:background="@drawable/box1"
+            android:clickable="true"
+            android:onClick="SingerClicked" />
+
+        <hichang.ourView.SingerItemView
+            android:id="@+id/singer2"
+            android:layout_width="315px"
+            android:layout_height="170px"
+            android:layout_x="550px"
+            android:layout_y="270px"
+            android:background="@drawable/box2"
+            android:clickable="true"
+            android:onClick="SingerClicked" />
+
+        <hichang.ourView.SingerItemView
+            android:id="@+id/singer3"
+            android:layout_width="315px"
+            android:layout_height="170px"
+            android:layout_x="880px"
+            android:layout_y="270px"
+            android:background="@drawable/box3"
+            android:clickable="true"
+            android:onClick="SingerClicked" />
+
+        <hichang.ourView.SingerItemView
+            android:id="@+id/singer4"
+            android:layout_width="315px"
+            android:layout_height="170px"
+            android:layout_x="220px"
+            android:layout_y="450px"
+            android:background="@drawable/box4"
+            android:clickable="true"
+            android:onClick="SingerClicked" />
+
+        <hichang.ourView.SingerItemView
+            android:id="@+id/singer5"
+            android:layout_width="315px"
+            android:layout_height="170px"
+            android:layout_x="550px"
+            android:layout_y="450px"
+            android:background="@drawable/box5"
+            android:clickable="true"
+            android:onClick="SingerClicked" />
+
+        <hichang.ourView.SingerItemView
+            android:id="@+id/singer6"
+            android:layout_width="315px"
+            android:layout_height="170px"
+            android:layout_x="880px"
+            android:layout_y="450px"
+            android:background="@drawable/box6"
+            android:clickable="true"
+            android:onClick="SingerClicked" />
+
+        <hichang.ourView.SingerItemView
+            android:id="@+id/singer7"
+            android:layout_width="315px"
+            android:layout_height="170px"
+            android:layout_x="220px"
+            android:layout_y="630px"
+            android:background="@drawable/box7"
+            android:clickable="true"
+            android:onClick="SingerClicked" />
+
+        <hichang.ourView.SingerItemView
+            android:id="@+id/singer8"
+            android:layout_width="315px"
+            android:layout_height="170px"
+            android:layout_x="550px"
+            android:layout_y="630px"
+            android:background="@drawable/box8"
+            android:clickable="true"
+            android:onClick="SingerClicked" />
+
+        <hichang.ourView.SingerItemView
+            android:id="@+id/singer9"
+            android:layout_width="315px"
+            android:layout_height="170px"
+            android:layout_x="880px"
+            android:layout_y="630px"
+            android:background="@drawable/box9"
+            android:clickable="true"
+            android:onClick="SingerClicked" />
+
+        <hichang.ourView.RankMusicItemView
+            android:id="@+id/song1"
+            android:layout_width="646px"
+            android:layout_height="80px"
+            android:layout_x="295px"
+            android:layout_y="221px"
+            android:clickable="true"
+            android:onClick="SongClicked" />
+
+        <hichang.ourView.RankMusicItemView
+            android:id="@+id/song2"
+            android:layout_width="646px"
+            android:layout_height="80px"
+            android:layout_x="295px"
+            android:layout_y="359px"
+            android:clickable="true"
+            android:onClick="SongClicked" />
+
+        <hichang.ourView.RankMusicItemView
+            android:id="@+id/song3"
+            android:layout_width="646px"
+            android:layout_height="80px"
+            android:layout_x="295px"
+            android:layout_y="497px"
+            android:clickable="true"
+            android:onClick="SongClicked" />
+
+        <hichang.ourView.RankMusicItemView
+            android:id="@+id/song4"
+            android:layout_width="646px"
+            android:layout_height="80px"
+            android:layout_x="295px"
+            android:layout_y="635px"
+            android:clickable="true"
+            android:onClick="SongClicked" />
+
+        <hichang.ourView.RankMusicItemView
+            android:id="@+id/song5"
+            android:layout_width="646px"
+            android:layout_height="80px"
+            android:layout_x="295px"
+            android:layout_y="773px"
+            android:clickable="true"
+            android:onClick="SongClicked" />
+
+        <hichang.ourView.RankMusicItemView
+            android:id="@+id/song6"
+            android:layout_width="646px"
+            android:layout_height="80px"
+            android:layout_x="961px"
+            android:layout_y="221px"
+            android:clickable="true"
+            android:onClick="SongClicked" />
+
+        <hichang.ourView.RankMusicItemView
+            android:id="@+id/song7"
+            android:layout_width="646px"
+            android:layout_height="80px"
+            android:layout_x="961px"
+            android:layout_y="359px"
+            android:clickable="true"
+            android:onClick="SongClicked" />
+
+        <hichang.ourView.RankMusicItemView
+            android:id="@+id/song8"
+            android:layout_width="646px"
+            android:layout_height="80px"
+            android:layout_x="961px"
+            android:layout_y="497px"
+            android:clickable="true"
+            android:onClick="SongClicked" />
+
+        <hichang.ourView.RankMusicItemView
+            android:id="@+id/song9"
+            android:layout_width="646px"
+            android:layout_height="80px"
+            android:layout_x="961px"
+            android:layout_y="635px"
+            android:clickable="true"
+            android:onClick="SongClicked" />
+
+        <hichang.ourView.RankMusicItemView
+            android:id="@+id/song0"
+            android:layout_width="646px"
+            android:layout_height="80px"
+            android:layout_x="961px"
+            android:layout_y="773px"
+            android:clickable="true"
+            android:onClick="SongClicked" />
+
+        <hichang.ourView.MusicItemView
+            android:id="@+id/music1"
+            android:layout_width="445px"
+            android:layout_height="80px"
+            android:layout_x="245px"
+            android:layout_y="265px"
+            android:clickable="true"
+            android:onClick="MusicClicked" />
+
+        <hichang.ourView.MusicItemView
+            android:id="@+id/music2"
+            android:layout_width="445px"
+            android:layout_height="80px"
+            android:layout_x="245px"
+            android:layout_y="375px"
+            android:clickable="true"
+            android:onClick="MusicClicked" />
+
+        <hichang.ourView.MusicItemView
+            android:id="@+id/music3"
+            android:layout_width="445px"
+            android:layout_height="80px"
+            android:layout_x="245px"
+            android:layout_y="485px"
+            android:clickable="true"
+            android:onClick="MusicClicked" />
+
+        <hichang.ourView.MusicItemView
+            android:id="@+id/music4"
+            android:layout_width="445px"
+            android:layout_height="80px"
+            android:layout_x="245px"
+            android:layout_y="595px"
+            android:clickable="true"
+            android:onClick="MusicClicked" />
+
+        <hichang.ourView.MusicItemView
+            android:id="@+id/music5"
+            android:layout_width="445px"
+            android:layout_height="80px"
+            android:layout_x="245px"
+            android:layout_y="705px"
+            android:clickable="true"
+            android:onClick="MusicClicked" />
+
+        <hichang.ourView.MusicItemView
+            android:id="@+id/music6"
+            android:layout_width="445px"
+            android:layout_height="80px"
+            android:layout_x="745px"
+            android:layout_y="265px"
+            android:clickable="true"
+            android:onClick="MusicClicked" />
+
+        <hichang.ourView.MusicItemView
+            android:id="@+id/music7"
+            android:layout_width="445px"
+            android:layout_height="80px"
+            android:layout_x="745px"
+            android:layout_y="375px"
+            android:clickable="true"
+            android:onClick="MusicClicked" />
+
+        <hichang.ourView.MusicItemView
+            android:id="@+id/music8"
+            android:layout_width="445px"
+            android:layout_height="80px"
+            android:layout_x="745px"
+            android:layout_y="485px"
+            android:clickable="true"
+            android:onClick="MusicClicked" />
+
+        <hichang.ourView.MusicItemView
+            android:id="@+id/music9"
+            android:layout_width="445px"
+            android:layout_height="80px"
+            android:layout_x="745px"
+            android:layout_y="595px"
+            android:clickable="true"
+            android:onClick="MusicClicked" />
+
+        <hichang.ourView.MusicItemView
+            android:id="@+id/music0"
+            android:layout_width="445px"
+            android:layout_height="80px"
+            android:layout_x="745px"
+            android:layout_y="705px"
+            android:clickable="true"
+            android:onClick="MusicClicked" />
+    </AbsoluteLayout>
+
+    <ImageView
+        android:id="@+id/leftframe"
+        android:layout_width="140px"
+        android:layout_height="705px"
+        android:layout_x="20px"
+        android:layout_y="154px"
+        android:background="@drawable/leftframe" />
+
+    <ImageView
+        android:id="@+id/rightframe"
+        android:layout_width="140px"
+        android:layout_height="705px"
+        android:layout_x="1760px"
+        android:layout_y="154px"
+        android:background="@drawable/rightframe" />
+
+    <TextView
+        android:id="@+id/tilte"
+        android:layout_width="1000px"
+        android:layout_height="80px"
+        android:layout_x="250px"
+        android:layout_y="125px"
+        android:singleLine="true"
+        android:text="首页>排行榜点歌"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/lefttext"
+        android:layout_width="60px"
+        android:layout_height="385px"
+        android:layout_x="70px"
+        android:layout_y="362px"
+        android:lineSpacingMultiplier="1.2"
+        android:lines="5"
+        android:text="歌星点歌"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/righttext"
+        android:layout_width="60px"
+        android:layout_height="385px"
+        android:layout_x="1790px"
+        android:layout_y="362px"
+        android:lineSpacingMultiplier="1.2"
+        android:lines="5"
+        android:text="歌曲点歌"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/page"
+        android:layout_width="240px"
+        android:layout_height="50px"
+        android:layout_x="1500px"
+        android:layout_y="850px"
+        android:text="1"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/searchback"
+        android:layout_width="400px"
+        android:layout_height="600px"
+        android:layout_x="1330px"
+        android:layout_y="243px"
+        android:background="@drawable/keyframe_bright"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:id="@+id/searchframe"
+        android:layout_width="327px"
+        android:layout_height="46px"
+        android:layout_x="1390px"
+        android:layout_y="300px"
+        android:background="@drawable/searchframe"
+        android:scaleType="fitXY" >
+
+        <TextView
+            android:id="@+id/search"
+            android:layout_width="270px"
+            android:layout_height="46px"
+            android:layout_marginLeft="10px"
+            android:layout_x="1200px"
+            android:layout_y="120px"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/remote_keyboard_num_1"
+        android:layout_width="92px"
+        android:layout_height="74px"
+        android:layout_x="1400px"
+        android:layout_y="420px"
+        android:onClick="KeyNumClicked" />
+
+    <ImageView
+        android:id="@+id/remote_keyboard_num_2"
+        android:layout_width="92px"
+        android:layout_height="74px"
+        android:layout_x="1509px"
+        android:layout_y="420px"
+        android:onClick="KeyNumClicked" />
+
+    <ImageView
+        android:id="@+id/remote_keyboard_num_3"
+        android:layout_width="92px"
+        android:layout_height="74px"
+        android:layout_x="1618px"
+        android:layout_y="420px"
+        android:onClick="KeyNumClicked" />
+
+    <ImageView
+        android:id="@+id/remote_keyboard_num_4"
+        android:layout_width="92px"
+        android:layout_height="74px"
+        android:layout_x="1400px"
+        android:layout_y="518px"
+        android:onClick="KeyNumClicked" />
+
+    <ImageView
+        android:id="@+id/remote_keyboard_num_5"
+        android:layout_width="92px"
+        android:layout_height="74px"
+        android:layout_x="1509px"
+        android:layout_y="518px"
+        android:onClick="KeyNumClicked" />
+
+    <ImageView
+        android:id="@+id/remote_keyboard_num_6"
+        android:layout_width="92px"
+        android:layout_height="74px"
+        android:layout_x="1618px"
+        android:layout_y="518px"
+        android:onClick="KeyNumClicked" />
+
+    <ImageView
+        android:id="@+id/remote_keyboard_num_7"
+        android:layout_width="92px"
+        android:layout_height="74px"
+        android:layout_x="1400px"
+        android:layout_y="616px"
+        android:onClick="KeyNumClicked" />
+
+    <ImageView
+        android:id="@+id/remote_keyboard_num_8"
+        android:layout_width="92px"
+        android:layout_height="74px"
+        android:layout_x="1509px"
+        android:layout_y="616px"
+        android:onClick="KeyNumClicked" />
+
+    <ImageView
+        android:id="@+id/remote_keyboard_num_9"
+        android:layout_width="92px"
+        android:layout_height="74px"
+        android:layout_x="1618px"
+        android:layout_y="616px"
+        android:onClick="KeyNumClicked" />
+
+    <ImageView
+        android:id="@+id/remote_keyboard_num_pin"
+        android:layout_width="92px"
+        android:layout_height="74px"
+        android:layout_x="1400px"
+        android:layout_y="714px"
+        android:onClick="ButtonClicked" />
+
+    <ImageView
+        android:id="@+id/remote_keyboard_num_0"
+        android:layout_width="92px"
+        android:layout_height="74px"
+        android:layout_x="1509px"
+        android:layout_y="714px"
+        android:onClick="KeyNumClicked" />
+
+    <ImageView
+        android:id="@+id/remote_keyboard_num_jiao"
+        android:layout_width="92px"
+        android:layout_height="74px"
+        android:layout_x="1618px"
+        android:layout_y="714px"
+        android:onClick="ButtonClicked" />
+
+    <ImageView
+        android:id="@+id/smallarrow"
+        android:layout_width="50px"
+        android:layout_height="37px"
+        android:layout_x="1267px"
+        android:layout_y="450px"
+        android:scaleType="fitXY"
+        android:src="@drawable/right" />
+
+    <ImageView
+        android:id="@+id/keyboard_ok"
+        android:layout_width="140px"
+        android:layout_height="140px"
+        android:layout_x="1223px"
+        android:layout_y="524px"
+        android:onClick="ButtonClicked"
+        android:scaleType="fitXY"
+        android:src="@drawable/keyborad_okbutton2" />
+
+    <ImageView
+        android:id="@+id/arrow_left"
+        android:layout_width="140px"
+        android:layout_height="240px"
+        android:layout_x="96px"
+        android:layout_y="395px"
+        android:background="@drawable/arrow_left" />
+
+    <ImageView
+        android:id="@+id/arrow_right"
+        android:layout_width="140px"
+        android:layout_height="240px"
+        android:layout_x="1682px"
+        android:layout_y="393px"
+        android:background="@drawable/arrow_right" />
+
+    <ImageView
+        android:id="@+id/arrow_up"
+        android:layout_width="240px"
+        android:layout_height="140px"
+        android:layout_x="840px"
+        android:layout_y="12px"
+        android:background="@drawable/arrow_up" />
+
+    <ImageView
+        android:id="@+id/arrow_down"
+        android:layout_width="240px"
+        android:layout_height="140px"
+        android:layout_x="840px"
+        android:layout_y="874px"
+        android:background="@drawable/arrow_down" />
+
+</AbsoluteLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    
+    <ImageView 
+        android:id="@+id/party_menu_num"
+        android:layout_width="85px"
+        android:layout_height="80px"
+        android:scaleType="center"
+        />
+    
+    <TextView
+        android:id="@+id/party_menu_song"
+        android:layout_width="300px" 
+        android:gravity="center"
+        android:layout_height="80px"
+        android:textSize="32px"
+        android:textColor="#696969"
+         />
+    
+    <TextView
+        android:id="@+id/party_menu_singer"
+        android:layout_width="110px" 
+        android:gravity="center"
+        android:layout_height="80px"
+        android:textSize="26px"
+        android:textColor="#BEBEBE"
+         />
+</LinearLayout>

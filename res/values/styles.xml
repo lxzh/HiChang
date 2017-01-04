@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Party" parent="android:Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@drawable/party_bg</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Practice" parent="android:Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@drawable/practice_bg</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Sing" parent="android:Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@drawable/sing_bg</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Remote" parent="android:Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@drawable/remote_bg</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Main" parent="android:Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@drawable/main_bg</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Help" parent="android:Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@drawable/help_bg</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>

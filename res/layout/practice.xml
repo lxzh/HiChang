@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/practiceLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="1080px"
+    android:background="@drawable/practice_bg"
+    android:orientation="vertical" >
+
+    <!-- 练歌界面的上边主版块 -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1014px"
+        android:orientation="horizontal" >
+
+        <!-- 主版块上部分 -->
+
+        <AbsoluteLayout
+            android:layout_width="1425px"
+            android:layout_height="1014px" >
+
+            <!-- 歌手头像背景 -->
+
+            <ImageView
+                android:layout_width="400px"
+                android:layout_height="205px"
+                android:layout_x="9px"
+                android:layout_y="9px"
+                android:background="@drawable/singer" />
+
+            <!-- 歌手头像 -->
+
+            <ImageView
+                android:id="@+id/pra_sin_image"
+                android:layout_width="195px"
+                android:layout_height="195px"
+                android:layout_x="11px"
+                android:layout_y="20px" />
+
+            <!-- 歌曲名、歌手名、最高分、已唱时间和总时间 -->
+
+            <TextView
+                android:id="@+id/pra_showscore"
+                android:layout_width="158px"
+                android:layout_height="116px"
+                android:layout_x="227px"
+                android:layout_y="52px"
+                android:lines="3"
+                android:textSize="28px" />
+
+            <!-- 显示内存消耗 -->
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="300px"
+                android:layout_height="200px"
+                android:layout_x="227px"
+                android:layout_y="200px"
+                android:textSize="22sp" />
+            <!-- 中上部分数显示 -->
+
+            <ImageView
+                android:id="@+id/num_left"
+                android:layout_width="84px"
+                android:layout_height="150px"
+                android:layout_x="860px"
+                android:layout_y="50px"
+                android:src="@drawable/num0" />
+
+            <ImageView
+                android:id="@+id/num_right"
+                android:layout_width="84px"
+                android:layout_height="150px"
+                android:layout_x="944px"
+                android:layout_y="50px"
+                android:src="@drawable/num0" />
+
+            <!-- 大星星 -->
+
+            <ImageView
+                android:id="@+id/starimage"
+                android:layout_width="50px"
+                android:layout_height="50px"
+                android:layout_x="1050px"
+                android:layout_y="20px"
+                android:src="@drawable/dark_bigstar" />
+
+
+            <ImageView
+                android:id="@+id/timeHand"
+                android:layout_width="10px"
+                android:layout_height="532px"
+                android:layout_x="200px"
+                android:layout_y="288px"
+                android:src="@drawable/timehand"
+                android:visibility="invisible" />
+
+            <!-- 每句话的评价 -->
+
+            <ImageView
+                android:id="@+id/evaluteimage"
+                android:layout_width="373px"
+                android:layout_height="85px"
+                android:layout_x="10px"
+                android:layout_y="910px"
+                android:src="@drawable/evaluate0" />
+
+            <!-- 蓝色倒计时标记 -->
+
+            <ImageView
+                android:id="@+id/countblue"
+                android:layout_width="37px"
+                android:layout_height="37px"
+                android:layout_x="610px"
+                android:layout_y="815px"
+                android:src="@drawable/countdownblue"
+                android:visibility="invisible" />
+
+            <!-- 红色倒计时标记 -->
+
+            <ImageView
+                android:id="@+id/countred"
+                android:layout_width="37px"
+                android:layout_height="37px"
+                android:layout_x="660px"
+                android:layout_y="815px"
+                android:src="@drawable/countdownred"
+                android:visibility="invisible" />
+
+            <!-- 黄色倒计时标记 -->
+
+            <ImageView
+                android:id="@+id/countyellow"
+                android:layout_width="37px"
+                android:layout_height="37px"
+                android:layout_x="710px"
+                android:layout_y="815px"
+                android:src="@drawable/countdownyellow"
+                android:visibility="invisible" />
+            
+			<ImageView
+            	android:id="@+id/practice_sentence"
+           		android:layout_width="487px"
+           		android:layout_height="174px"
+          	    android:layout_x="520px"
+         	    android:layout_y="450px"
+         	    android:src="@drawable/before"
+           	   />
+
+            <hichang.ourView.CurveAndLrc
+                android:id="@+id/practice_curveandlrc"
+                android:layout_width="1425px"
+                android:layout_height="814px"
+                android:layout_x="0px"
+                android:layout_y="200px" />
+            <ImageView
+            	android:id="@+id/practice_staff"
+           		android:layout_width="1000px"
+           		android:layout_height="140px"
+          	    android:layout_x="410px"
+         	    android:layout_y="874px"
+         	    android:src="@drawable/staff"
+           	    android:visibility="invisible" />
+            
+        </AbsoluteLayout>
+
+        <!-- 歌词ListView版块 -->
+
+        <ScrollView
+            android:id="@+id/ScrollView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:id="@+id/LinearLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <ListView
+                    android:id="@+id/listview_list"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:listSelector="#00000000"
+                    android:dividerHeight="0px"
+                    android:scrollbars="none" >
+                </ListView>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <!-- 菜单框 -->
+
+    <AbsoluteLayout
+        android:layout_width="fill_parent"
+        android:layout_height="66px" >
+
+        <!-- 红色功能键 -->
+
+        <ImageView
+            android:id="@+id/function_red"
+            android:layout_width="80px"
+            android:layout_height="35px"
+            android:layout_x="15px"
+            android:layout_y="14px"
+            android:clickable="true"
+            android:onClick="OnFuncMenuClicked"
+            android:src="@drawable/function_red" />
+        <!-- 绿色功能键 -->
+
+        <ImageView
+            android:id="@+id/function_green"
+            android:layout_width="80px"
+            android:layout_height="35px"
+            android:layout_x="115px"
+            android:layout_y="14px"
+            android:clickable="true"
+            android:onClick="OnFuncMenuClicked"
+            android:src="@drawable/function_green" />
+        <!-- 黄色功能键 -->
+
+        <ImageView
+            android:id="@+id/function_yellow"
+            android:layout_width="80px"
+            android:layout_height="35px"
+            android:layout_x="215px"
+            android:layout_y="14px"
+            android:clickable="true"
+            android:onClick="OnFuncMenuClicked"
+            android:src="@drawable/function_yellow" />
+        <!-- 蓝色功能键 -->
+
+        <ImageView
+            android:id="@+id/function_blue"
+            android:layout_width="80px"
+            android:layout_height="35px"
+            android:layout_x="315px"
+            android:layout_y="14px"
+            android:clickable="true"
+            android:onClick="OnFuncMenuClicked"
+            android:src="@drawable/function_blue" />
+
+        <AbsoluteLayout
+            android:id="@+id/funclayout"
+            android:layout_width="330px"
+            android:layout_height="54px"
+            android:layout_x="430px"
+            android:layout_y="10px" >
+
+            <!-- 原唱、ktv是否开启显示 -->
+
+            <ImageView
+                android:id="@+id/funcfirstimage"
+                android:layout_width="100px"
+                android:layout_height="35px"
+                android:layout_x="9px"
+                android:layout_y="2px"
+                android:visibility="invisible" />
+            <!-- 原唱伴奏或者ktv专业中部斜杠 -->
+
+            <ImageView
+                android:id="@+id/funcsprit"
+                android:layout_width="25px"
+                android:layout_height="30px"
+                android:layout_x="93px"
+                android:layout_y="2px"
+                android:src="@drawable/sprit"
+                android:visibility="invisible" />
+            <!-- 伴奏、专业是否开启显示 -->
+
+            <ImageView
+                android:id="@+id/funcsecimage"
+                android:layout_width="100px"
+                android:layout_height="35px"
+                android:layout_x="120px"
+                android:layout_y="2px"
+                android:visibility="invisible" />
+            <!-- 伴奏、麦克风音量icon -->
+
+            <ImageView
+                android:id="@+id/volumntype"
+                android:layout_width="25px"
+                android:layout_height="30px"
+                android:layout_x="15px"
+                android:layout_y="10px"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/practice_text_zcl"
+                android:layout_width="40px"
+                android:layout_height="30px"
+                android:layout_x="290px"
+                android:layout_y="10px"
+                android:visibility="invisible" />
+            <!-- 滑动条 -->
+
+            <SeekBar
+                android:id="@+id/player_seekbar"
+                android:layout_width="220px"
+                android:layout_height="wrap_content"
+                android:layout_x="50px"
+                android:layout_y="18px"
+                android:max="100"
+                android:maxHeight="5px"
+                android:minHeight="5px"
+                android:progress="50"
+                android:progressDrawable="@layout/seekbar_style"
+                android:thumb="@layout/thumb"
+                android:visibility="invisible" />
+            <TextView 
+                android:id="@+id/volumn_textview"
+                android:layout_width="40px"
+                android:layout_height="30px"
+                android:layout_x="290px"
+                android:layout_y="10px"
+                android:visibility="invisible"/>
+        </AbsoluteLayout>
+    </AbsoluteLayout>
+
+</LinearLayout>

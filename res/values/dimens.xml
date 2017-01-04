@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <dimen name="practice_vocational_lrc_height">140px</dimen>
+    <dimen name="practice_vocational_lrc_width">1000px</dimen>
+    <dimen name="practice_vocational_lrc_x">410px</dimen>
+    <dimen name="practice_vocational_lrc_y">674px</dimen>
+    <dimen name="practice_vocational_curve_height">532px</dimen>
+    <dimen name="practice_vocational_curve_width">1200px</dimen>
+    <dimen name="practice_vocational_curve_x">200px</dimen>
+    <dimen name="practice_vocational_curve_y">50px</dimen>
+    <dimen name="practice_ktv_lrc_height">532px</dimen>
+    <dimen name="practice_ktv_lrc_width">1220px</dimen>
+    <dimen name="practice_ktv_lrc_x">200px</dimen>
+    <dimen name="practice_ktv_lrc_y">50px</dimen>
+    <dimen name="practice_ktv_curve_height">140px</dimen>
+    <dimen name="practice_ktv_curve_width">1000px</dimen>
+    <dimen name="practice_ktv_curve_x">410px</dimen>
+    <dimen name="practice_ktv_curve_y">674px</dimen>
+    
+    <dimen name="sing_vocational_lrc_height">182px</dimen>
+    <dimen name="sing_vocational_lrc_width">1000px</dimen>
+    <dimen name="sing_vocational_lrc_x">400px</dimen>
+    <dimen name="sing_vocational_lrc_y">592px</dimen>
+    <dimen name="sing_vocational_curve_height">592px</dimen>
+    <dimen name="sing_vocational_curve_width">1600px</dimen>
+    <dimen name="sing_vocational_curve_x">160px</dimen>
+    <dimen name="sing_vocational_curve_y">0px</dimen>
+    <dimen name="sing_ktv_lrc_height">592px</dimen>
+    <dimen name="sing_ktv_lrc_width">1600px</dimen>
+    <dimen name="sing_ktv_lrc_x">160px</dimen>
+    <dimen name="sing_ktv_lrc_y">0px</dimen>
+    <dimen name="sing_ktv_curve_height">182px</dimen>
+    <dimen name="sing_ktv_curve_width">1000px</dimen>
+    <dimen name="sing_ktv_curve_x">400px</dimen>
+    <dimen name="sing_ktv_curve_y">592px</dimen>
+    
+    <dimen name="party_vocational_lrc_height">182px</dimen>
+    <dimen name="party_vocational_lrc_width">1000px</dimen>
+    <dimen name="party_vocational_lrc_x">400px</dimen>
+    <dimen name="party_vocational_lrc_y">592px</dimen>
+    <dimen name="party_vocational_curve_height">592px</dimen>
+    <dimen name="party_vocational_curve_width">1600px</dimen>
+    <dimen name="party_vocational_curve_x">160px</dimen>
+    <dimen name="party_vocational_curve_y">0px</dimen>
+    <dimen name="party_ktv_lrc_height">592px</dimen>
+    <dimen name="party_ktv_lrc_width">1600px</dimen>
+    <dimen name="party_ktv_lrc_x">160px</dimen>
+    <dimen name="party_ktv_lrc_y">0px</dimen>
+    <dimen name="party_ktv_curve_height">182px</dimen>
+    <dimen name="party_ktv_curve_width">1000px</dimen>
+    <dimen name="party_ktv_curve_x">400px</dimen>
+    <dimen name="party_ktv_curve_y">592px</dimen>
+    
+    <dimen name="party_menu_vocational_lrc_height">182px</dimen>
+    <dimen name="party_menu_vocational_lrc_width">1000px</dimen>
+    <dimen name="party_menu_vocational_lrc_x">200px</dimen>
+    <dimen name="party_menu_vocational_lrc_y">592px</dimen>
+    <dimen name="party_menu_vocational_curve_height">592px</dimen>
+    <dimen name="party_menu_vocational_curve_width">1200px</dimen>
+    <dimen name="party_menu_vocational_curve_x">200px</dimen>
+    <dimen name="party_menu_vocational_curve_y">0px</dimen>
+    <dimen name="party_menu_ktv_lrc_height">592px</dimen>
+    <dimen name="party_menu_ktv_lrc_width">1200px</dimen>
+    <dimen name="party_menu_ktv_lrc_x">200px</dimen>
+    <dimen name="party_menu_ktv_lrc_y">0px</dimen>
+    <dimen name="party_menu_ktv_curve_height">182px</dimen>
+    <dimen name="party_menu_ktv_curve_width">1000px</dimen>
+    <dimen name="party_menu_ktv_curve_x">200px</dimen>
+    <dimen name="party_menu_ktv_curve_y">592px</dimen>
+    
+</resources>
