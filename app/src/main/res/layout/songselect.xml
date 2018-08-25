@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget0"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/remote_bg"
+    android:orientation="vertical" >
+	
+    
+    <hichang.ourView.RankView
+        android:id="@+id/rank_view1"
+        android:layout_width="1600px"
+        android:layout_height="806px"
+        android:layout_x="160px"
+        android:layout_y="102px"
+        android:scaleType="fitXY"
+        android:background="@drawable/midframe" />
+	<hichang.ourView.RankView
+        android:id="@+id/rank_view2"
+        android:layout_width="1600px"
+        android:layout_height="806px"
+        android:layout_x="160px"
+        android:layout_y="102px"
+        android:visibility="invisible"
+        android:scaleType="fitXY"
+        android:background="@drawable/midframe" />
+	
+    <AbsoluteLayout
+        android:id="@+id/song_layout1"
+        android:layout_width="1600px"
+        android:layout_height="806px"
+        android:layout_x="160px"
+        android:layout_y="102px"
+        android:visibility="invisible"
+        android:scaleType="fitXY"
+        android:background="@drawable/midframe" >
+
+        <hichang.ourView.SongView
+            android:id="@+id/song_view1"
+            android:layout_width="1060px"
+            android:layout_height="584px"
+            android:layout_x="48px"
+       	    android:layout_y="141px"
+       	    android:scaleType="fitXY"
+            android:background="@drawable/midframe_dark" />
+        <ImageView
+       		android:layout_width="140px"
+       	 	android:layout_height="140px"
+        	android:layout_x="1070px"
+        	android:layout_y="413px"
+       	 	android:scaleType="fitXY"
+        	android:src="@drawable/keyborad_okbutton2" />
+        <hichang.ourView.InputBoxView
+            android:id="@+id/song_input_view1"
+            android:layout_width="400px"
+            android:layout_height="584px"
+            android:layout_x="1170px"
+       	    android:layout_y="141px"
+       	    android:scaleType="fitXY"
+            android:background="@drawable/keyframe_dark" />
+    </AbsoluteLayout>
+	<AbsoluteLayout
+        android:id="@+id/song_layout2"
+        android:layout_width="1600px"
+        android:layout_height="806px"
+        android:layout_x="160px"
+        android:layout_y="102px"
+        android:visibility="invisible"
+        android:scaleType="fitXY"
+        android:background="@drawable/midframe" >
+
+        <hichang.ourView.SongView
+            android:id="@+id/song_view2"
+            android:layout_width="1060px"
+            android:layout_height="584px"
+            android:layout_x="48px"
+       	    android:layout_y="141px"
+       	    android:scaleType="fitXY"
+            android:background="@drawable/midframe_dark" />
+        <ImageView
+       		android:layout_width="140px"
+       	 	android:layout_height="140px"
+        	android:layout_x="1070px"
+        	android:layout_y="413px"
+       	 	android:scaleType="fitXY"
+        	android:src="@drawable/keyborad_okbutton2" />
+        <hichang.ourView.InputBoxView
+            android:id="@+id/song_input_view2"
+            android:layout_width="400px"
+            android:layout_height="584px"
+            android:layout_x="1170px"
+       	    android:layout_y="141px"
+       	    android:scaleType="fitXY"
+            android:background="@drawable/keyframe_dark" />
+    </AbsoluteLayout>
+    <AbsoluteLayout
+        android:id="@+id/singer_layout1"
+        android:layout_width="1600px"
+        android:layout_height="806px"
+        android:layout_x="160px"
+        android:layout_y="102px"
+        android:visibility="invisible"
+        android:scaleType="fitXY"
+        android:background="@drawable/midframe" >
+
+        <hichang.ourView.SingerView
+            android:id="@+id/singer_view1"
+            android:layout_width="1060px"
+            android:layout_height="584px"
+            android:layout_x="48px"
+       	    android:layout_y="141px"
+       	    android:scaleType="fitXY"
+            android:background="@drawable/midframe_dark" />
+		<ImageView
+       		android:layout_width="140px"
+       	 	android:layout_height="140px"
+        	android:layout_x="1070px"
+        	android:layout_y="413px"
+       	 	android:scaleType="fitXY"
+        	android:src="@drawable/keyborad_okbutton2" />
+        <hichang.ourView.InputBoxView
+            android:id="@+id/singer_input_view1"
+            android:layout_width="400px"
+            android:layout_height="584px"
+            android:layout_x="1170px"
+       	    android:layout_y="141px"
+       	    android:scaleType="fitXY"
+            android:background="@drawable/keyframe_dark" />
+    </AbsoluteLayout>
+	<AbsoluteLayout
+        android:id="@+id/singer_layout2"
+        android:layout_width="1600px"
+        android:layout_height="806px"
+        android:layout_x="160px"
+        android:layout_y="102px"
+        android:visibility="invisible"
+        android:scaleType="fitXY"
+        android:background="@drawable/midframe" >
+
+        <hichang.ourView.SingerView
+            android:id="@+id/singer_view2"
+            android:layout_width="1060px"
+            android:layout_height="584px"
+            android:layout_x="48px"
+       	    android:layout_y="141px"
+       	    android:scaleType="fitXY"
+            android:background="@drawable/midframe_dark" />
+		<ImageView
+       		android:layout_width="140px"
+       	 	android:layout_height="140px"
+        	android:layout_x="1070px"
+        	android:layout_y="413px"
+       	 	android:scaleType="fitXY"
+        	android:src="@drawable/keyborad_okbutton2" />
+        <hichang.ourView.InputBoxView
+            android:id="@+id/singer_input_view2"
+            android:layout_width="400px"
+            android:layout_height="584px"
+            android:layout_x="1170px"
+       	    android:layout_y="141px"
+       	    android:scaleType="fitXY"
+            android:background="@drawable/keyframe_dark" />
+    </AbsoluteLayout>
+   <ImageView
+        android:id="@+id/left_btn"
+        android:layout_width="140px"
+        android:layout_height="240px"
+        android:layout_x="126px"
+        android:layout_y="393px"
+        android:clickable="true"
+        android:background="@drawable/arrow_left" />
+
+    <ImageView
+        android:id="@+id/right_btn"
+        android:layout_width="140px"
+        android:layout_height="240px"
+        android:layout_x="1652px"
+        android:layout_y="393px"
+        android:clickable="true"
+        android:background="@drawable/arrow_right" />
+
+    <ImageView
+        android:id="@+id/up_btn"
+        android:layout_width="240px"
+        android:layout_height="140px"
+        android:layout_x="840px"
+        android:layout_y="12px"
+        android:clickable="true"
+        android:background="@drawable/arrow_up" />
+
+    <ImageView
+        android:id="@+id/down_btn"
+        android:layout_width="240px"
+        android:layout_height="140px"
+        android:layout_x="840px"
+        android:layout_y="874px"
+        android:clickable="true"
+        android:background="@drawable/arrow_down" />
+</AbsoluteLayout>
